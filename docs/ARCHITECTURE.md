@@ -20,4 +20,7 @@ Static single-page site. No framework, build step or backend.
 - `main`: approved state.
 
 ## Hosting
-None. Local preview only (`python3 -m http.server`).
+- Preview: GitHub Pages (legacy build) from `dev` branch, path `/`: https://drapiigi.github.io/tattowizard/. All asset paths are relative, so the `/tattowizard/` subpath works.
+- Repo is public because Pages on a private repo needs a paid plan.
+- Local: `python3 -m http.server 8765`.
+- `noindex, nofollow` meta stays on the preview.

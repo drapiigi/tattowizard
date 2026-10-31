@@ -15,7 +15,8 @@ _Last updated: 31 Oct 2026_
 
 ## Rules
 - Changes go to `dev` first; `main` only after approval.
-- Repo `drapiigi/tattowizard` stays **private**. No GitHub Pages, Cloudflare or other public hosting/deploys without explicit approval.
+- Repo `drapiigi/tattowizard` is **public** (approved 31 Oct 2026) so GitHub Pages can serve the preview at https://drapiigi.github.io/tattowizard/ from the `dev` branch root. Never commit secrets or personal data.
+- No custom domain, Cloudflare or other hosting without explicit approval.
 - Keep `noindex, nofollow`.
 - Booking form stays non-functional (no data collection backend) unless approved.
 - No inline scripts or styles.

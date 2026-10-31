@@ -4,7 +4,10 @@ A concept website for **Tattowizard** (working name), a fictional appointment-on
 Tagline: *Custom ink, conjured with intent.*
 
 Everything here is fictional: the studio, artists, address, email (`hello@tattowizard.example`), prices and work.
-All imagery is AI-generated for this concept. The page carries `noindex, nofollow` and is **not deployed anywhere**.
+All imagery is AI-generated for this concept. The page carries `noindex, nofollow`.
+
+**Preview:** https://drapiigi.github.io/tattowizard/ (GitHub Pages, built from the `dev` branch root).
+The repo is **public** so GitHub Pages can serve the preview (approved by Gabriel, 31 Oct 2026).
 
 ## Sections
 Hero with booking CTA · studio statement · artists (4) · portfolio with style filters
@@ -32,4 +35,6 @@ No build step and no dependencies.
 
 ## Workflow
 - All changes go to `dev` first. `main` is updated only after approval (fast-forward from `dev`).
-- No public hosting, GitHub Pages or Cloudflare without explicit approval. Repo stays private.
+- The Pages preview tracks `dev`: pushing to `dev` updates https://drapiigi.github.io/tattowizard/.
+- The repo is public for the Pages preview, so never commit secrets or personal data.
+- No custom domain, Cloudflare or other hosting without explicit approval.
